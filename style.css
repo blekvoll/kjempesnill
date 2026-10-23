@@ -1,24 +1,29 @@
 h1 {
-  color: rgb(39, 37, 38);
-  font-size: 80px;
+  color: rgb(61, 58, 60);
+  font-size: clamp(2.25rem, 8vw, 5rem);
   text-align: center;
-  font-family: Garamond;
+  font-family: "EB Garamond", Garamond, Georgia, serif;
   font-weight: 800;
+  overflow-wrap: break-word;
 }
+
 img {
-    width: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    width: min(50%, 500px);
+    height: auto;
+    margin: 50px auto;
 }
+
 body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.5;
     font-weight: 500;
     color: rgb(53, 52, 52);
     background: #f5e2c6;
-}    
+} 
+
 .tommel {
-    width: 20%;
+    width: clamp(3.5rem, 10vw, 6rem);
 }
